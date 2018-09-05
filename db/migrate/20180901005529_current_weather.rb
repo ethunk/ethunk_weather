@@ -1,4 +1,4 @@
-class CreateCurrentWeathers < ActiveRecord::Migration[5.1]
+class CurrentWeather < ActiveRecord::Migration[5.1]
   def change
     create_table :current_weathers, {id: false}  do |t|
       t.json :coord
